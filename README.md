@@ -9,18 +9,18 @@ probabilities in vacuum.
 A neutrino produced with flavor $\alpha$ is a superposition of the three
 mass eigenstates:
 
-$$
+```math
 |\nu_\alpha\rangle
 =
 \sum_i U_{\alpha i}^{*} |\nu_i\rangle,
-$$
+```
 
 where $U$ is the PMNS mixing matrix.
 
 During propagation, each mass eigenstate acquires a different phase. The
 flavor-transition amplitude matrix is calculated as
 
-$$
+```math
 S(L,E)
 =
 U
@@ -30,16 +30,16 @@ U
 0 & 0 & \exp\left(-i\frac{\Delta m_{31}^{2}L}{2E}\right)
 \end{pmatrix}
 U^\dagger.
-$$
+```
 
 The probability for a neutrino with initial flavor $\alpha$ to be detected
 with flavor $\beta$ is
 
-$$
+```math
 P(\nu_\alpha \rightarrow \nu_\beta)
 =
 |S_{\beta\alpha}|^2.
-$$
+```
 
 Only the mass-squared differences are required because a phase common to all
 three mass eigenstates does not affect the oscillation probabilities.
