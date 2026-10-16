@@ -19,3 +19,6 @@ dist/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Generated example outputs
+oscillation_probabilities.png
