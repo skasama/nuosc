@@ -99,7 +99,7 @@ uv run python examples/plot_probabilities.py
 The example compares vacuum and constant-density matter probabilities for
 both neutrinos and antineutrinos. The default settings are:
 
-- baseline: 295 km
+- baseline: 100 km
 - matter density: 2.6 g/cm$^3$
 - electron fraction: 0.5
 - energy range: 0.1 to 2.0 GeV
