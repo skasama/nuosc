@@ -14,13 +14,13 @@ class OscillationParameters:
     They should not be interpreted as an official global-fit parameter set.
     """
 
-    theta12: float = 0.5843
-    theta13: float = 0.1489
-    theta23: float = 0.8590
+    theta12: float = 0.586
+    theta13: float = 0.149
+    theta23: float = 0.831
     delta_cp: float = -1.601
 
     dm21: float = 7.42e-5
-    dm31: float = 2.517e-3
+    dm31: float = 2.51e-3
 
     def __post_init__(self) -> None:
         """Validate the parameter values."""
