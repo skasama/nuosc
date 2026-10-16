@@ -71,3 +71,18 @@ probability = vacuum_probability(
 
 print(probability)
 ```
+
+## Example
+
+A basic example comparing vacuum and constant-density matter oscillations
+is available in `examples/example.py`.
+
+Run the example from the repository root:
+
+```bash
+uv run python examples/example.py
+```
+
+The example calculates the transition probabilities from an initial muon
+neutrino to electron, muon, and tau neutrinos. It also checks that the three
+probabilities sum to one.
