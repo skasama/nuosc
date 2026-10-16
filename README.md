@@ -57,7 +57,7 @@ The vacuum calculation uses the following units:
 
 For example, the following code calculates the
 $\nu_\mu \rightarrow \nu_e$ appearance probability for a neutrino with an
-energy of $0.6$ GeV after traveling $295$ km:
+energy of $1.0$ GeV after traveling $100$ km:
 
 ```python
 from nuosc import vacuum_probability
@@ -65,8 +65,9 @@ from nuosc import vacuum_probability
 probability = vacuum_probability(
     initial="mu",
     final="e",
-    energy=0.6,
-    baseline=295.0,
+    energy=1.0,
+    baseline=100,
 )
 
 print(probability)
+```
