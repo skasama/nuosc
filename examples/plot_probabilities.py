@@ -52,7 +52,7 @@ def calculate_probabilities(
 def main() -> None:
     """Plot the muon-to-electron appearance probability."""
 
-    baseline = 100.
+    baseline = 100.0
     density = 2.6
     electron_fraction = 0.5
 

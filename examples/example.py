@@ -67,8 +67,8 @@ def main() -> None:
     """Run the basic oscillation example."""
 
     print_probabilities(
-        energy=1.,
-        baseline=100.,
+        energy=1.0,
+        baseline=100.0,
         density=2.6,
         electron_fraction=0.5,
     )

@@ -1,6 +1,6 @@
 """Three-flavor neutrino oscillations in vacuum."""
 
-from typing import Final, Literal, TypeAlias
+from typing import Final, Literal
 
 import numpy as np
 from numpy.typing import NDArray
@@ -8,7 +8,7 @@ from numpy.typing import NDArray
 from nuosc.parameters import OscillationParameters
 from nuosc.pmns import pmns_matrix
 
-Flavor: TypeAlias = Literal["e", "mu", "tau"]
+type Flavor = Literal["e", "mu", "tau"]
 
 FLAVOR_INDEX: Final[dict[str, int]] = {
     "e": 0,
